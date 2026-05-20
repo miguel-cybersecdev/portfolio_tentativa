@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#050816] text-white font-[Poppins]">
+
+    <header class="fixed w-full z-50 bg-[#050816]/90 backdrop-blur-md border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <h1 class="text-2x1 font-bold text-cyan-400">
+                Cyber Portfólio
+            </h1>
+
+            <ul class="hidden md:flex gap-8 text-sm font-medium">
+                <li><a href="#home" class="hover:text-cyan-400 transition">Início</a></li>
+                <li><a href="#sobre" class="hover:text-cyan-400 transition">Sobre</a></li>
+                <li><a href="#skills" class="hover:text-cyan-400 transition">Skills</a></li>
+                <li><a href="#projetos" class="hover:text-cyan-400 transition">Projetos</a></li>
+                <li><a href="#contato" class="hover:text-cyan-400 transition">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section id="home">
+
+    </section>
+    
+</body>
+</html>
